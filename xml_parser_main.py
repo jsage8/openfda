@@ -50,16 +50,3 @@ if __name__ == '__main__':
     search = not args.no_search
     tag = args.tag
     main(xml_file, json_file, class_file, index_field, search, tag)
-
-
-# python
-# from doc_parser import XMLDocParser
-# from foi import FDAClassificationParser
-# index_field = "PRODUCTCODE"
-# class_file = 'foiclass.txt'
-# xml_file = 'udi.xml'
-# tag = 'device'
-# class_parser = FDAClassificationParser(index_field)
-# class_parser.parse(class_file)
-# xml_parser = XMLDocParser(class_parser)
-# xml_parser.parse(xml_file, search_tag=tag)
